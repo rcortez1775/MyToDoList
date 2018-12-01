@@ -8,12 +8,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: auto;
+    max-width: 100%;
 }
 
 h1 {
     text-align: center;
-    background: #86a8e7;
-    color:white;
+    color:black;
     margin: 0;
     padding:10px 28px;
     font-weight: normal;
@@ -62,10 +63,8 @@ button:hover {
 #todo {
     margin: 0 auto ;
     margin-top: 10%;
-    box-shadow: 0 0 1em black;
     max-width: 400px;
     height:100%;
-    background:white;
     position:relative;
 }
 
@@ -76,7 +75,6 @@ button:hover {
 }
 
 .todos li {
-    background: #f7f7f7;
     height:50px;
     line-height: 50px;
     cursor: pointer;

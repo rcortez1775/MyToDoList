@@ -4,6 +4,7 @@ var ul = document.querySelector("ul");
 var container = document.querySelector("div");
 var lists = document.querySelectorAll("li");
 var spans = document.getElementsByTagName("span");
+var addBtn = document.querySelector(".add");
 var saveBtn = document.querySelector(".save");
 var clearBtn = document.querySelector(".clear");
 
@@ -24,6 +25,18 @@ function loadTodo() {
         deleteTodo();
     }
 }
+
+//This function adds user input to the todo list
+/*addBtn.addEventListener('click', function () {
+        var li = document.createElement("li");
+        var spanElement = document.createElement("span");
+        var newTodo = this.input;
+        this.input = " ";
+        ul.appendChild(li).append(spanElement, newTodo);
+        deleteTodo();
+}); */
+
+
 
 //This event listener will add any new text to the list when the enter key is pressed
 input.addEventListener("keypress", function (keyPressed) {
