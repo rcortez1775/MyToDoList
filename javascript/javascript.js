@@ -34,7 +34,6 @@ addBtn.addEventListener("click", function() {
   // ul.appendChild(li).append(spanElement, newTodo);
   // let newTodo = input.value;
   // deleteTodo();
-
   let li = document.createElement("li");
   let spanElement = document.createElement("span");
   const input = document.querySelector("input");
