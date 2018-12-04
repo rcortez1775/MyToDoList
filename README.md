@@ -2,7 +2,7 @@
 
 ## Technologies
 
-My To Do List utilizes HTMl, CSS and JavaScript.
+My To Do List utilizes HTML, CSS and JavaScript.
 
 ## How Does it work?
 
